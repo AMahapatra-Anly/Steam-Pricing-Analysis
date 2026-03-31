@@ -1,0 +1,14 @@
+# Ignore the dataset files
+*.csv
+*.parquet
+*.json
+**/data/
+
+# Ignore checkpoint files
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/
+
+# Ignore Python overhead
+.env
+venv/
+__pycache__/
