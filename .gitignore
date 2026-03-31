@@ -12,3 +12,6 @@
 .env
 venv/
 __pycache__/
+
+# Never ignore png files in the graphs directory
+!graphs/*.png
